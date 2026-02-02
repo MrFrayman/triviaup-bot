@@ -1,0 +1,73 @@
+# Category 0 - Science & Technology
+---
+questions:
+- question: "What is the chemical symbol for Gold?"
+  difficulty: "easy"
+  correct_answer: "Au"
+  incorrect_answers:
+  - "Go"
+  - "Gd"
+  - "Ag"
+- question: "How many bones are in the adult human body?"
+  difficulty: "easy"
+  correct_answer: "206"
+  incorrect_answers:
+  - "210"
+  - "200"
+  - "186"
+- question: "What is the process by which plants make their own food using sunlight?"
+  difficulty: "easy"
+  correct_answer: "Photosynthesis"
+  incorrect_answers:
+  - "Respiration"
+  - "Fermentation"
+  - "Decomposition"
+- question: "What does DNA stand for?"
+  difficulty: "medium"
+  correct_answer: "Deoxyribonucleic Acid"
+  incorrect_answers:
+  - "Diatomic Nitrogen Acid"
+  - "Developmental Nuclear Assembly"
+  - "Dynamic Nucleic Arrangement"
+- question: "What is the speed of light in vacuum?"
+  difficulty: "medium"
+  correct_answer: "299,792,458 meters per second"
+  incorrect_answers:
+  - "200,000,000 meters per second"
+  - "350,000,000 meters per second"
+  - "150,000,000 meters per second"
+- question: "Which planet is known as the Red Planet?"
+  difficulty: "easy"
+  correct_answer: "Mars"
+  incorrect_answers:
+  - "Venus"
+  - "Jupiter"
+  - "Mercury"
+- question: "What is the smallest unit of life?"
+  difficulty: "easy"
+  correct_answer: "Cell"
+  incorrect_answers:
+  - "Atom"
+  - "Molecule"
+  - "Organ"
+- question: "How many strings does a standard violin have?"
+  difficulty: "medium"
+  correct_answer: "4"
+  incorrect_answers:
+  - "6"
+  - "8"
+  - "5"
+- question: "What year was the World Wide Web invented?"
+  difficulty: "medium"
+  correct_answer: "1989"
+  incorrect_answers:
+  - "1995"
+  - "1985"
+  - "1992"
+- question: "What does HTTP stand for?"
+  difficulty: "medium"
+  correct_answer: "HyperText Transfer Protocol"
+  incorrect_answers:
+  - "High Transfer Text Protocol"
+  - "HyperText Transmission Protocol"
+  - "Home Telnet Transfer Protocol"

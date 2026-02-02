@@ -1,0 +1,73 @@
+# Category 4 - Entertainment
+---
+questions:
+- question: "In which year was the first Star Wars movie released?"
+  difficulty: "easy"
+  correct_answer: "1977"
+  incorrect_answers:
+  - "1975"
+  - "1980"
+  - "1979"
+- question: "Who directed the movie Titanic?"
+  difficulty: "easy"
+  correct_answer: "James Cameron"
+  incorrect_answers:
+  - "Steven Spielberg"
+  - "Christopher Nolan"
+  - "Martin Scorsese"
+- question: "What is the name of the coffee shop in the TV series 'Friends'?"
+  difficulty: "easy"
+  correct_answer: "Central Perk"
+  incorrect_answers:
+  - "The Brew"
+  - "Java Junction"
+  - "Coffee Corner"
+- question: "How many strings does a standard guitar have?"
+  difficulty: "easy"
+  correct_answer: "6"
+  incorrect_answers:
+  - "5"
+  - "7"
+  - "8"
+- question: "Who wrote the Harry Potter series?"
+  difficulty: "easy"
+  correct_answer: "J.K. Rowling"
+  incorrect_answers:
+  - "George R.R. Martin"
+  - "Stephen King"
+  - "J.R.R. Tolkien"
+- question: "In which year did the Avengers: Endgame release?"
+  difficulty: "medium"
+  correct_answer: "2019"
+  incorrect_answers:
+  - "2018"
+  - "2020"
+  - "2017"
+- question: "Who won the Academy Award for Best Actor in 1994?"
+  difficulty: "hard"
+  correct_answer: "Tom Hanks"
+  incorrect_answers:
+  - "Morgan Freeman"
+  - "Denzel Washington"
+  - "Jack Nicholson"
+- question: "What is the name of Taylor Swift's album released in 2022?"
+  difficulty: "medium"
+  correct_answer: "Midnights"
+  incorrect_answers:
+  - "Folklore"
+  - "Evermore"
+  - "Lover"
+- question: "Which actor played Iron Man in the Marvel Cinematic Universe?"
+  difficulty: "easy"
+  correct_answer: "Robert Downey Jr."
+  incorrect_answers:
+  - "Chris Evans"
+  - "Chris Hemsworth"
+  - "Mark Ruffalo"
+- question: "In how many languages has Disney's Frozen been dubbed?"
+  difficulty: "hard"
+  correct_answer: "Over 40"
+  incorrect_answers:
+  - "Over 30"
+  - "Over 50"
+  - "Over 25"

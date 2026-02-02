@@ -1,0 +1,73 @@
+# Category 1 - History & Geography
+---
+questions:
+- question: "What is the capital of France?"
+  difficulty: "easy"
+  correct_answer: "Paris"
+  incorrect_answers:
+  - "Lyon"
+  - "Marseille"
+  - "Nice"
+- question: "In which year did the Titanic sink?"
+  difficulty: "easy"
+  correct_answer: "1912"
+  incorrect_answers:
+  - "1905"
+  - "1920"
+  - "1898"
+- question: "Which is the largest continent by area?"
+  difficulty: "easy"
+  correct_answer: "Asia"
+  incorrect_answers:
+  - "Africa"
+  - "North America"
+  - "Europe"
+- question: "Who was the first President of the United States?"
+  difficulty: "easy"
+  correct_answer: "George Washington"
+  incorrect_answers:
+  - "Thomas Jefferson"
+  - "John Adams"
+  - "Benjamin Franklin"
+- question: "In what year did World War II end?"
+  difficulty: "easy"
+  correct_answer: "1945"
+  incorrect_answers:
+  - "1943"
+  - "1947"
+  - "1944"
+- question: "Which country is home to the Great Wall?"
+  difficulty: "easy"
+  correct_answer: "China"
+  incorrect_answers:
+  - "Japan"
+  - "Mongolia"
+  - "India"
+- question: "What is the capital of Australia?"
+  difficulty: "medium"
+  correct_answer: "Canberra"
+  incorrect_answers:
+  - "Sydney"
+  - "Melbourne"
+  - "Brisbane"
+- question: "In which year did the fall of the Berlin Wall occur?"
+  difficulty: "medium"
+  correct_answer: "1989"
+  incorrect_answers:
+  - "1987"
+  - "1991"
+  - "1985"
+- question: "Which ancient wonder of the world still stands?"
+  difficulty: "medium"
+  correct_answer: "The Great Pyramid of Giza"
+  incorrect_answers:
+  - "The Hanging Gardens of Babylon"
+  - "The Colossus of Rhodes"
+  - "The Lighthouse of Alexandria"
+- question: "Who wrote the Declaration of Independence?"
+  difficulty: "medium"
+  correct_answer: "Thomas Jefferson"
+  incorrect_answers:
+  - "Benjamin Franklin"
+  - "John Hancock"
+  - "James Madison"

@@ -1,0 +1,73 @@
+# Category 3 - Sports
+---
+questions:
+- question: "How many players are on a soccer team on the field?"
+  difficulty: "easy"
+  correct_answer: "11"
+  incorrect_answers:
+  - "10"
+  - "12"
+  - "9"
+- question: "In which sport do you use a racket and a ball to hit over a net?"
+  difficulty: "easy"
+  correct_answer: "Tennis"
+  incorrect_answers:
+  - "Badminton"
+  - "Squash"
+  - "Table Tennis"
+- question: "How many points is a touchdown worth in American Football?"
+  difficulty: "easy"
+  correct_answer: "6"
+  incorrect_answers:
+  - "5"
+  - "7"
+  - "8"
+- question: "Which country has won the most FIFA World Cups?"
+  difficulty: "medium"
+  correct_answer: "Brazil"
+  incorrect_answers:
+  - "Germany"
+  - "Italy"
+  - "France"
+- question: "In cricket, how many runs make up an over?"
+  difficulty: "easy"
+  correct_answer: "6"
+  incorrect_answers:
+  - "5"
+  - "4"
+  - "8"
+- question: "Which country won the Cricket World Cup in 1992?"
+  difficulty: "medium"
+  correct_answer: "Pakistan"
+  incorrect_answers:
+  - "India"
+  - "Australia"
+  - "West Indies"
+- question: "How many holes are on a standard golf course?"
+  difficulty: "easy"
+  correct_answer: "18"
+  incorrect_answers:
+  - "15"
+  - "20"
+  - "16"
+- question: "What is the maximum score in ten-pin bowling?"
+  difficulty: "easy"
+  correct_answer: "300"
+  incorrect_answers:
+  - "250"
+  - "350"
+  - "280"
+- question: "Who is the fastest man in the world (100m sprint record holder)?"
+  difficulty: "medium"
+  correct_answer: "Usain Bolt"
+  incorrect_answers:
+  - "Yohan Blake"
+  - "Tyson Gay"
+  - "Asafa Powell"
+- question: "In what year did Muhammad Ali win his first heavyweight boxing title?"
+  difficulty: "hard"
+  correct_answer: "1964"
+  incorrect_answers:
+  - "1966"
+  - "1962"
+  - "1960"
