@@ -19,16 +19,28 @@
 #### 2. Configure Environment Variables
 After connecting your repository, Railway will automatically detect the project. Add the following environment variables:
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `BOT_TOKEN` | Your Discord Bot token | `YOUR_DISCORD_BOT_TOKEN` |
-| `DATABASE_URL` | (Optional) Database connection string | Leave empty for file-based DB |
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `BOT_TOKEN` | Your Discord Bot token | ✅ Yes |
+| `PREFIX` | Bot prefix (default: `trivia `) | ❌ No |
+| `DEBUG` | Enable debug mode (true/false) | ❌ No |
+| `DISCORD_SHARD_COUNT` | Number of shards for the bot | ❌ No |
+| `DATABASE_URL` | Custom database URL | ❌ No |
+
+**The environment variables automatically override settings in config.json.**
 
 **To add environment variables:**
 1. Go to your Railway project
 2. Click on the service (should auto-name based on repo)
 3. Go to "Variables" tab
 4. Add each variable and its value
+
+Example:
+```
+BOT_TOKEN = xoxb-123456789...
+PREFIX = trivia 
+DEBUG = false
+```
 
 #### 3. Configure bot settings
 1. Rename `config.example.json` to `config.json`
@@ -80,9 +92,16 @@ After connecting your repository, Railway will automatically detect the project.
 
 ### Troubleshooting
 
+**Bot doesn't respond to commands (no slash commands):**
+- This bot uses **prefix commands**, not slash commands
+- Commands format: `trivia play`, `trivia help`, `trivia categories`, `trivia stop`
+- Check that "Message Content Intent" is **enabled** in Discord Developer Portal
+- Make sure the prefix is correct in your config (default: `trivia `)
+- Verify bot has "Send Messages" permission in the channel
+
 **Bot doesn't respond:**
 - Check bot token is correct in environment variables
-- Verify bot has permissions in Discord server (Send Messages, Read Messages)
+- Verify bot has permissions in Discord server (Send Messages, Read Messages, Message Content Intent)
 - Check logs for errors
 
 **Deployment fails:**
@@ -132,7 +151,7 @@ For issues with:
 - **TriviaBot**: Check [GitHub Issues](https://github.com/LakeYS/Discord-Trivia-Bot/issues)
 - **Railway**: Visit [Railway Docs](https://docs.railway.app)
 
-### Getting Your Bot Token
+### Getting Your Bot Token & Enabling Intents
 
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
 2. Create New Application (or select existing)
@@ -140,6 +159,14 @@ For issues with:
 4. Click "Add Bot"
 5. Under TOKEN section, click "Copy"
 6. Keep this token secret and use in Railway environment variables
+
+**IMPORTANT - Enable Message Content Intent:**
+1. In Developer Portal, go to your Bot's settings
+2. Scroll down to "GATEWAY INTENTS"
+3. **Enable** "Message Content Intent" (required for prefix commands)
+4. Save changes
+
+This is required because TriviaBot uses prefix-based commands like `trivia play`, not slash commands.
 
 ### Inviting Your Bot to a Server
 
