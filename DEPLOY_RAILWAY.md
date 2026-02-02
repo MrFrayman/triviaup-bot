@@ -42,23 +42,14 @@ PREFIX = trivia
 DEBUG = false
 ```
 
-#### 3. Configure bot settings
-1. Rename `config.example.json` to `config.json`
-2. Update with your bot token and settings
-3. Commit and push to GitHub
+#### 2. Configure bot settings (Optional)
+If you want to customize settings beyond the defaults, you can edit `config.json` before pushing to GitHub. However, **environment variables will always override config.json settings**.
 
-```json
-{
-  "token": "YOUR_DISCORD_BOT_TOKEN",
-  "prefix": "trivia ",
-  "no-commands": false,
-  "status": "Playing trivia! Use 'trivia play'",
-  "debug": false
-}
-```
+Standard config file is included and will be auto-generated from your Railway environment variables at startup.
 
-#### 4. Deploy
+#### 3. Deploy
 - Railway automatically deploys when you push to your repository
+- The bot will automatically generate `config.json` from environment variables on startup
 - View deployment logs in the Railway dashboard
 - Check the "Logs" tab for errors
 
