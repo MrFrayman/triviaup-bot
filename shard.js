@@ -83,6 +83,11 @@ global.client.on("messageCreate", async (msg) => {
 
   var str = msg.toString().toUpperCase();
 
+  // Debug logging
+  if(Config["debug-mode"]) {
+    console.log(`[MESSAGE] ${msg.author.username}: ${msg.content} (Channel: ${msg.channel.type})`);
+  }
+
   if(msg.channel.type === ChannelType.GuildText || msg.channel.type === ChannelType.DM) {
     global.Trivia.parse(str, msg);
   }
